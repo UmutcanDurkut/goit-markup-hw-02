@@ -12,3 +12,21 @@ button {
   line-height: inherit;
   letter-spacing: 4%;
 }
+.logo {
+  color: #4d5ae5;
+  text-decoration: underline;
+}
+span {
+  color: #2e2f42;
+  font-weight: 700;
+}
+a {
+  color: #2e2f42;
+}
+a:hover {
+  color: #404bbf;
+}
+a:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
