@@ -1,0 +1,58 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  line-height: 1.5;
+  size: 16px;
+  letter-spacing: 2%;
+}
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  size: 16px;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+button:hover:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.logo {
+  color: #4d5ae5;
+  text-decoration: underline;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+span {
+  color: #2e2f42;
+  font-weight: 700;
+}
+a {
+  color: #2e2f42;
+  font-weight: 500;
+}
+a:hover {
+  color: #404bbf;
+}
+a:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+address {
+  font-style: normal;
+}
+.section-title {
+  background-color: #2e2f42;
+}
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
