@@ -3,7 +3,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-.logo {
+.logo-class {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 18px;
@@ -12,6 +12,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 span {
   color: #2e2f42;
 }
@@ -43,4 +44,28 @@ address {
 .header .address-links .add-one:hover,
 :focus {
   color: #404bbf;
+}
+.section-one {
+  background-color: #2e2f42;
+}
+.main-hero {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.button-css {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.button-css:hover,
+:focus {
+  background-color: #404bbf;
+  cursor: pointer;
 }
