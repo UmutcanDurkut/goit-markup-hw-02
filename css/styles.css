@@ -28,12 +28,12 @@ span {
 .link-one {
   color: #2e2f42;
 }
-.link-one:hover {
+.link-one:hover,
+:focus,
+:active {
   color: #404bbf;
 }
-.link-one:focus {
-  color: #404bbf;
-}
+
 .navbar-link a:focus {
   color: #404bbf;
 }
@@ -52,7 +52,7 @@ address {
 .section-one {
   background-color: #2e2f42;
 }
-.main-hero {
+.main-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
