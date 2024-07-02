@@ -20,12 +20,16 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.navbar-link a:focus {
+  color: #404bbf;
+}
 .adress-links a {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.adress-links a :hover :focus {
+.adress-links a:hover,
+a:focus {
   color: #404bbf;
 }
