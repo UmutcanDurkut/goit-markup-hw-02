@@ -3,7 +3,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-.logo-class {
+.logo-link {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 18px;
@@ -11,6 +11,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.logo-link:hover,
+:focus {
+  color: #404bbf;
 }
 
 span {
@@ -21,13 +25,13 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.link-1 {
+.link-one {
   color: #2e2f42;
 }
-.link-1:hover {
+.link-one:hover {
   color: #404bbf;
 }
-.link-1:focus {
+.link-one:focus {
   color: #404bbf;
 }
 .navbar-link a:focus {
