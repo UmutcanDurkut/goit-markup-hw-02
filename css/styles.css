@@ -5,7 +5,7 @@ body {
   color: #434455;
 }
 .logo-link {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -69,14 +69,14 @@ body {
   background-color: #404bbf;
 }
 /* Section2 Team */
-.little-tittle {
+.team-class h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.team-p {
+.team-class p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
