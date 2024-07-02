@@ -43,7 +43,7 @@ body {
   color: #404bbf;
 }
 
-/* Main/Sections */
+/* Main/Section 1 */
 .section-hero {
   background-color: #2e2f42;
 }
@@ -67,4 +67,18 @@ body {
 .button-one:hover,
 :focus {
   background-color: #404bbf;
+}
+/* Section2 Team */
+.little-tittle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
