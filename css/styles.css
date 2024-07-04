@@ -7,9 +7,7 @@ body {
 button {
   cursor: pointer;
 }
-span {
-  color: #2e2f42;
-}
+
 /* Header Navbar Adress  */
 /* Logo Class'ı */
 .nav-list-logo {
