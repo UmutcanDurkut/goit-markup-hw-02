@@ -22,9 +22,7 @@ button {
 .logo-span {
   color: #2e2f42;
 }
-.foot.nav-list-logo.logo-span {
-  color: #2e2f42;
-}
+
 /* Link Class'ı */
 .list-link {
   font-weight: 500;
@@ -44,7 +42,7 @@ button {
 .address-link .list-link {
   color: #434455;
 }
-.address-link.list-link:hover,
+address.address-link .list-link:hover,
 :focus {
   color: #404bbf;
 }
@@ -113,4 +111,7 @@ button {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+footer .logo-span {
+  color: #2e2f42;
 }
