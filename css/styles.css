@@ -36,6 +36,9 @@ button {
 /* Address Linkleri Class'ı */
 .address-link {
   font-style: normal;
+  .address-link .list-link {
+    color: #434455;
+  }
 }
 /* İlk Section Bölümü */
 .section-one {
@@ -102,7 +105,4 @@ button {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-footer.logo-span {
-  color: #2e2f42;
 }
