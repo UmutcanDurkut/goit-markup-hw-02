@@ -43,7 +43,7 @@ button {
   color: #434455;
 }
 address.address-link .list-link:hover,
-:focus {
+address.address-link .list-link:focus {
   color: #404bbf;
 }
 /* İlk Section Bölümü */
@@ -112,6 +112,6 @@ address.address-link .list-link:hover,
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-footer .logo-span {
+footer .nav-list-logo .logo-span {
   color: #2e2f42;
 }
