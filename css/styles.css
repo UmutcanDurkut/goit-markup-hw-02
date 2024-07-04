@@ -7,6 +7,9 @@ body {
 button {
   cursor: pointer;
 }
+span {
+  color: #2e2f42;
+}
 /* Header Navbar Adress  */
 /* Logo Class'ı */
 .nav-list-logo {
@@ -36,9 +39,9 @@ button {
 /* Address Linkleri Class'ı */
 .address-link {
   font-style: normal;
-  .address-link .list-link {
-    color: #434455;
-  }
+}
+.address-link .list-link {
+  color: #434455;
 }
 /* İlk Section Bölümü */
 .section-one {
