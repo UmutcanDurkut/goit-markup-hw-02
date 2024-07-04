@@ -19,9 +19,6 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-span {
-  color: #2e2f42;
-}
 
 /* Link Class'ı */
 .list-link {
@@ -112,6 +109,9 @@ address.address-link .list-link:focus {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-footer .nav-list-logo .logo-span {
+footer .logo-span {
+  color: #2e2f42;
+}
+.logo-span {
   color: #2e2f42;
 }
