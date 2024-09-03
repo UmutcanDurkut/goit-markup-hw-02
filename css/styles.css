@@ -9,4 +9,17 @@
   --cloud: #f4f4fd;
   --white: #ffffff;
   --dairy: #fcfcfc;
+  --roboto: "Roboto", sans serif;
+  --raleway: "Raleway", sans serif;
+}
+/* Settings Related to Fonts */
+body {
+  font-family: var(--roboto);
+}
+* {
+  font-family: inherit;
+}
+/* Buttons should be set to pointer value with the cursor property.  */
+button {
+  cursor: pointer;
 }
