@@ -12,14 +12,41 @@
   --roboto: "Roboto", sans serif;
   --raleway: "Raleway", sans serif;
 }
-/* Settings Related to Fonts */
-body {
-  font-family: var(--roboto);
+
+/* < Header area / Navbar / Address  Logo
+ Başlık alanı / Gezinme çubuğu / Adresleyici > */
+.logo-link {
+  font-family: var(--raleway);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
 }
-* {
-  font-family: inherit;
+.logo-span {
+  color: var(--navyblue);
 }
-/* Buttons should be set to pointer value with the cursor property.  */
-button {
-  cursor: pointer;
+.navbar-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+.navbar-link:hover {
+  color: var(--ocean);
+}
+.address {
+  font-style: normal;
+}
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean);
 }
