@@ -50,3 +50,33 @@
 .address-link:focus {
   color: var(--ocean);
 }
+/* < Body / Section > */
+
+.hero {
+  background-color: #2e2f42;
+}
+/* < Titles / Başlıklar > */
+.h1-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+/* < Butonlar / Buttons > */
+button {
+  cursor: pointer;
+}
+.button-item {
+  background-color: var(--iris);
+  font-family: var(--roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+.button-item:hover,
+.button-item:focus {
+  background-color: var(--ocean);
+}
